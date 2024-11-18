@@ -22,7 +22,7 @@ body:
     attributes:
       label: "작업 목록"
       description: "작업 항목을 한 줄씩 입력하세요. 엔터를 눌러 다음 줄로 넘어갈 수 있습니다."
-      placeholder:
+      placeholder: |
         - [ ] <UI 구현하기>
         - [ ] <함수 구현하기>
   - type: markdown

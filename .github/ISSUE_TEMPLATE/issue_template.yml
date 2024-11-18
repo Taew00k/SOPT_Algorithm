@@ -25,7 +25,7 @@ body:
       placeholder: |
         - [ ] UI 구현하기
         - [ ] 함수 구현하기
-      value: "- [ ] "
+      value: "- [ ]"
   - type: markdown
     attributes:
       value: "## 📚 참고할만한 자료 (선택)"

@@ -25,7 +25,7 @@ body:
       placeholder: |
         - [ ] <UI 구현하기>
         - [ ] <함수 구현하기>
-      valus:
+      value:
         - [ ]
   - type: markdown
     attributes:

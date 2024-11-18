@@ -23,8 +23,7 @@ body:
       description: "작업 항목을 한 줄씩 입력하세요. 엔터를 눌러 다음 줄로 넘어갈 수 있습니다."
       value: |
         - [ ] 
-        - [ ] 
-        - [ ] 
+        - [ ]
   - type: markdown
     attributes:
       value: "## 📚 참고할만한 자료 (선택)"
@@ -32,6 +31,5 @@ body:
     id: reference
     attributes:
       label: "참고 자료"
-      description: "참고할만한 자료의 링크나 설명을 추가해주세요."
-      value: |
-        - [ ] 참고 자료를 여기에 입력해주세요.
+      description: "참고할만한 자료의 링크나 설명을 추가해주세요 (선택 사항)."
+      placeholder: "참고 자료를 여기에 입력해주세요."

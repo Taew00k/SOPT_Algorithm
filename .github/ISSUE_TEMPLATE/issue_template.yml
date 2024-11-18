@@ -1,8 +1,6 @@
-name: "ISSUE_TEMPLATE"
+name: "기능 요청 템플릿"
 description: "기능, UI, 문서 개선 및 추가 요청을 위한 이슈 템플릿입니다."
-title: ""
-labels: []
-assignees: []
+title: "기능 요청"
 
 body:
   - type: markdown
@@ -14,12 +12,11 @@ body:
       label: "기능 설명"
       description: "추가하려는 기능에 대해 자세히 설명해주세요."
       placeholder: "여기에 기능에 대한 설명을 적어주세요."
-      value: ""
     validations:
       required: true
   - type: markdown
     attributes:
-      value: "## 작업 상세 내용"
+      value: "## 작업 상세 내용\n> 작업 목록을 아래에 추가해주세요."
   - type: checkboxes
     id: tasks
     attributes:
@@ -29,8 +26,6 @@ body:
         - label: "TODO 1"
         - label: "TODO 2"
         - label: "TODO 3"
-    validations:
-      required: true
   - type: textarea
     id: reference
     attributes:

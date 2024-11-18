@@ -5,7 +5,7 @@ title: "제목을 입력해주세요"
 body:
   - type: markdown
     attributes:
-      value: "## 어떤 기능인가요?"
+      value: "## 🧞 어떤 기능인가요?"
   - type: textarea
     id: description
     attributes:
@@ -16,26 +16,19 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "## 작업 상세 내용"
+      value: "## 🛠️ 작업 상세 내용"
   - type: textarea
     id: tasks
     attributes:
       label: "작업 목록"
       description: "작업 항목을 한 줄씩 입력하세요. 엔터를 눌러 다음 줄로 넘어갈 수 있습니다."
       placeholder: |
-        🫧 <ex. 예시 지문>
+        <ex. 예시 지문>
         - [ ] <체크 1>
         - [ ] <체크 2>
-      value: |
-        - [ ] <작업 1>
-        - [ ] <작업 2>
-        - [ ] <작업 3>
-        - [ ] 더입력 ...
-    validations:
-      required: true
   - type: markdown
     attributes:
-      value: "## 참고할만한 자료 (선택)"
+      value: "## 📚 참고할만한 자료 (선택)"
   - type: textarea
     id: reference
     attributes:

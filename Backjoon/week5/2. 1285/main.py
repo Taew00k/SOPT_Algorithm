@@ -29,4 +29,5 @@ def cal_value(row) :
 ans = N**2
 for i in range(1 << N) :
   ans = min(ans, cal_value(i))
+  
 print(ans)

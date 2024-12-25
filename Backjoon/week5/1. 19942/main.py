@@ -25,8 +25,8 @@ def getSum():
     if pi >= mp and fi >= mf and si >= ms and vi >= mv:
         if ci < min_cost:
             min_cost = ci
-            min_combi = [i for i in combi]
-                
+            for i in combi:
+                min_combi.append(i)      
         
 def getCombi(k):	
     getSum()

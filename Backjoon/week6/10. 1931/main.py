@@ -8,6 +8,7 @@ tmp.sort(key=lambda x: (x[1], x[0]))
 
 time = 0
 count = 0
+
 for i in tmp:
     if i[0] >= time:
         time = i[1]  
